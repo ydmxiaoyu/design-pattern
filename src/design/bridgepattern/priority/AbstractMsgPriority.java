@@ -20,6 +20,11 @@ public abstract class AbstractMsgPriority {
         this.sendMsgType.doSend(msg, toUser);
     }
 
+    /**
+     * 发送短信
+     * @param msg 内容
+     * @param abstractReceiveUserRole 接受人角色
+     */
     public abstract void sendMsg(String msg, AbstractReceiveUserRole abstractReceiveUserRole);
 
 }

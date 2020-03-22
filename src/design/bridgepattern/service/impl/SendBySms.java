@@ -8,7 +8,7 @@ import design.bridgepattern.service.SendMsgType;
  * @author xiaoyu
  * @date 2020/3/19
  */
-public class SendBySMS implements SendMsgType {
+public class SendBySms implements SendMsgType {
 
     @Override
     public void doSend(String msg, String toUser) {
